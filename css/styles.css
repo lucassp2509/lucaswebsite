@@ -1,0 +1,184 @@
+a {
+  color: #3d84b8;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 15px;
+  text-decoration: none;
+}
+a:hover {
+  color: #f0ebcc;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 6rem;
+  /* 100% = 16px = 1em -> FONT SIZE! (Obs: 500% = 80px, because 16px = 100%) (Obs2: Root 'em', "rem" maintain the font size inserted even though there's some value inherited, from the body, for example) */
+  color: #344fa1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #344fa1;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3d84b8;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.avatar {
+  margin-top: 25px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.bottom-container {
+  background-color: #344fa1;
+  margin-bottom: 0;
+  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.BUTTON_OVJ {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: 50;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_OVJ:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto auto 25px auto;
+}
+
+.footer-link {
+  margin-top: 64px;
+}
+
+.get {
+  margin: 8px auto 8px auto;
+}
+
+.hobbies-img {
+  /*width: 25%*/
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.lc {
+  margin-bottom: 0;
+  color: #f0ebcc;
+  font-size: 0.75rem;
+  padding: 20px 0 0 0;
+}
+
+.middle-container {
+  margin: 50px 0 100px 0;
+}
+
+.monitor-img {
+  /*width: 25%*/
+  float: left;
+  margin-right: 30px;
+}
+
+.mountain {
+  margin-bottom: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 75px auto;
+  text-align: left;
+}
+
+.smedia {
+  margin: 4px;
+}
+
+.subt {
+  margin-top: 0;
+  font-weight: normal;
+  color: #344fa1;
+}
+
+.title {
+  color: #344fa1;
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 50px;
+  position: relative;
+  margin: 0;
+}
